@@ -13,7 +13,6 @@ const userSchema = new mongoose.Schema(
     },
     otp: {
       type: String,
-      required: true,
     },
   },
   { timestamps: true, versionKey: false }
